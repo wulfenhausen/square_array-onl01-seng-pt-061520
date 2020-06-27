@@ -6,6 +6,8 @@ require_relative '../square_array'
 # loaded once.
 #
 # See http://rubydoc.info/gems/rspec-core/RSpec/Core/Configuration
+numbers = [1,2,3]
+square_array(numbers)
 RSpec.configure do |config|
   
   # config.treat_symbols_as_metadata_keys_with_true_values = true
