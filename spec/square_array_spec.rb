@@ -20,3 +20,11 @@ describe '#square_array' do
   end
 
 end
+
+def square_array(numbers)
+  new_array = []
+  array.each do |new_array.push(a*a)|
+    return new_array
+  end
+  arr = [1,2,3]
+  square_array(arr)
