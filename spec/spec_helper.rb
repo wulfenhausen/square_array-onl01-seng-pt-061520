@@ -6,11 +6,17 @@ require_relative '../square_array'
 # loaded once.
 #
 # See http://rubydoc.info/gems/rspec-core/RSpec/Core/Configuration
-numbers = [1,2,3]
-square_array(numbers)
-square_array.each do | config |
-  Array.new 
-RSpec.configure do |config|
+
+  
+  
+def square_array(numbers)
+  new_array = []
+  array.each do |new_array.push(a*a)|
+    return new_array
+  end
+  arr = [1,2,3]
+  square_array(arr)
+#RSpec.configure do |config|
   
   # config.treat_symbols_as_metadata_keys_with_true_values = true
   # config.run_all_when_everything_filtered = true
@@ -21,4 +27,4 @@ RSpec.configure do |config|
   # the seed, which is printed after each run.
   #     --seed 1234
   # config.order = 'random'
-end
+#end
