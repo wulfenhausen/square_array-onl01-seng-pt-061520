@@ -9,14 +9,8 @@ require_relative '../square_array'
 
   
   
-def square_array(numbers)
-  new_array = []
-  array.each do |new_array.push(a*a)|
-    return new_array
-  end
-  arr = [1,2,3]
-  square_array(arr)
-#RSpec.configure do |config|
+
+RSpec.configure do |config|
   
   # config.treat_symbols_as_metadata_keys_with_true_values = true
   # config.run_all_when_everything_filtered = true
@@ -27,4 +21,4 @@ def square_array(numbers)
   # the seed, which is printed after each run.
   #     --seed 1234
   # config.order = 'random'
-#end
+end
